@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+			overflow: hidden;
+		}
+		.wrapper{
+			background:url(5.jpg);
+			background-size: cover;
+			height: 100vh;
+		}
+		.navbar ul{
+			float: right;
+			margin-right: 20px;
+		}
+		.navbar ul li{
+			list-style: none;
+			margin:0 8px;
+			display: inline-block;
+			line-height: 40px;
+		}
+		.navbar ul li a{
+			text-decoration: none;
+			color: white;
+			font-size: 20px;
+			padding: 16px 20px;
+			font-family: 'Roboto',sans-serif;
+			transition: 1s;
+		}
+		.navbar ul li a.active,
+		.navbar ul li a:hover{
+			background:red;
+			border-radius: 2px;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<nav class="navbar">
+			<ul>
+				<li><a href="login_admin_aut.php" target="right"><b>ADMIN</a></li>
+				<li><a href="std_admin.php" target="right">STUDENT</a></li>
+				<li><a href="faculty_admin.php" target="right">FACULTY</a></li>
+				<li><a href="dept_admin.php" target="right">DEPARTMENT</a></li>
+				<li><a href="asg_admin.php" target="right">ASSIGNMENTS</a></li>
+				<li><a href="uploads_view.php" target="right">SUBMISSION</a></li>
+				<li><a href="marks_ad.php" target="right">MARKS</a></li>
+				<li><a href="index.html" class="active" target="_blank">LOGOUT</b></a></li>
+			</ul>
+			
+		</nav>
+	</div>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+<!-- 
+ -->

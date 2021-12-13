@@ -1,0 +1,153 @@
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+  body {
+      position: relative; 
+      overflow: hidden;
+  }
+  #section1 {padding-top:50px;height:650px;}
+  #section2 {padding-top:50px;height:650px;}
+  #section3 {padding-top:50px;height:650px;}
+
+  #h{position: absolute;left: 310px;font-size: 25;color:white;background-color:red;}
+  #d{position: absolute;left: 450px;font-size: 20;color:white;background-color:#039544;}
+  .s{color:white;position:absolute;top:780;left:120;font-family: all;font-size: 32;}
+
+  #h:hover{background-color: white;color: black;}
+  #d:hover{background-color: white;color: black;}
+  nav{
+    background-color: red;
+  animation-name: example;
+  animation-duration: 2s;
+  }
+
+  @keyframes example {
+  from {background-color:white;}
+  to {background-color: red;}
+ 
+
+}
+/*
+ .i{
+    opacity: 0.1;
+  }*/
+
+  .btn1{
+    width: 130px;
+    height: 60px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 20px;
+    border:none;
+    font-size: 26;
+  }
+
+  .dropbtn{position: absolute;left:630px;top:2px;
+    font-size: 25;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    width: 100px;
+  }
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+ background-color: #f1f1f1;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a{
+  color: black;
+  padding:12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover{background-color: #ddd;}
+.dropdown:hover .dropdown-content{display: block;}
+.dropbtn:hover {background-color: white;color: black;}
+
+.s2{
+  position: absolute;top: 850px;left: 300px;
+  color: white;
+  font-size: 1.3em;
+  font-weight: normal;
+  padding:50px 20px;
+}
+
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" >
+    <a class="navbar-brand" style="font-family: cursive;font-size: 40;color: white;"><b>ASSIGNMENT EVALUATION</b></a>
+        <ul class="nav navbar-nav">
+          <li><a href="#section1" id="h"><b>HOME</b></a></li>
+          <li><a href="#section2" id="d"><b>DASHBOARD</b></a></li>
+          <div class="dropdown">
+          <button class="dropbtn"><b>LOG IN</b></button>
+          <div class="dropdown-content" style="position: absolute;top:48px;left: 640px;">
+            <a href="login.php"><b>Admin Login</b></a>
+            <a href="login_std.php"><b>Student Login</b></a>
+          </div>
+        </div>
+      </ul>
+    </nav>
+<!------------------------------------------------------------------------------------------------------------------------->
+<div id="section1" >
+  <img src="3.jpg" height="600" width="1320">
+</div>
+<!----------------------------------------------------------------------------------------------------------------------------->
+<div id="section2">
+  <img src="5.jpg" height="600" width="1370" class="i">
+
+
+ <p class="s2">
+  The main objective of the Assignment evaluation is to assign grades to the students. <br><br>It also helps to keep track on number of the assignments submitted by the students<br><br>It indicates the degree to which the students have mastered the course content. <br><br>Assignment evaluation is generally the work of standardised tests.<br><br>It helps to judge the appropriateness of instructional objectives.</p>
+
+
+</div>
+
+
+<script type="text/javascript">
+  $(documnet).ready(function(){
+    $('[data-toggle="p1"]').popover();
+  });
+</script>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,101 @@
+body{
+	font-size: 20px;
+}
+
+table{
+	width: 90%;
+	margin: 40px auto;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+tr{
+	border-bottom: 1px solid #bcbcbc;
+}
+
+th,td{
+	border:none;
+	height: 30px;
+	padding: 2px;
+	color: teal;
+}
+
+tr:hover{
+	background:#f5f5f5;
+}
+
+form{
+	width: 45%;
+	margin: 50px auto;
+	text-align: left;
+	padding: 20px;
+	border:1px solid #bbbbbb;
+	border-radius:5px;
+}
+
+.input{
+	margin: 10px 0px 10px 0px;
+}
+
+input:hover{
+	background:coral;
+	color: white;
+}
+
+.input label{
+	display: block;
+	text-align: left;
+	margin:3px;
+	color: coral;
+}
+
+.input input{
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border:1px solid gray;
+}
+
+.btn{
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background:#5af3af;
+	border:none;
+	border-radius:5px;
+	font-weight: bold;
+}
+
+.msg{
+	margin: 30px auto;
+	padding: 10px;
+	border-radius: 5px;
+	color: #3c768d;
+	background:#dff0d8;
+	border:1px solid #3c768d;
+	width: 50%;
+	text-align: center;
+}
+
+.editbtn{
+	text-decoration:none;
+	padding: 2px 5px;
+	background: #2e8b57;
+	color: white;
+	border-radius: 3px;
+}
+
+.delbtn{
+	text-decoration:none;
+	padding: 2px 5px;
+	background: #800000;
+	color: white;
+	border-radius: 3px;
+}
+
+h1{
+	color: teal;
+	text-align: center;
+}
